@@ -31,3 +31,5 @@ jobs:
           gh repo sync delta10/open-inwoner --branch develop
           gh repo sync delta10/open-formulieren --branch main
           gh repo sync delta10/open-forms-sdk --branch main
+          gh repo sync delta10/signalen-frontend --branch main
+          gh repo sync delta10/signalen-backend --branch main
