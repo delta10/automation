@@ -28,5 +28,5 @@ jobs:
         run: |
           set -e
 
-          gh repo sync delta10/open-inwoner --branch main
+          gh repo sync delta10/open-inwoner --branch develop
           gh repo sync delta10/open-formulieren --branch main
