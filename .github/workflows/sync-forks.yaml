@@ -28,8 +28,13 @@ jobs:
         run: |
           set -e
 
+          # Open Inwoner
           gh repo sync delta10/open-inwoner --branch develop
+
+          # Open Formulieren
           gh repo sync delta10/open-formulieren --branch main
           gh repo sync delta10/open-forms-sdk --branch main
+
+          # Signalen
           gh repo sync delta10/signalen-frontend --branch main
           gh repo sync delta10/signalen-backend --branch main
