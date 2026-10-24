@@ -31,6 +31,9 @@ jobs:
           # Atlas
           gh repo sync delta10/atlas --branch main
 
+          # Dex
+          gh repo sync delta10/dex --branch master
+
           # Signalen
           gh repo sync delta10/signalen-frontend --branch main
           gh repo sync delta10/signalen-backend --branch main
