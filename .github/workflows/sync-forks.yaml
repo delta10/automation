@@ -21,6 +21,7 @@ jobs:
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: delta10
           permission-contents: write
+          permission-workflows: write
 
       - name: Sync forks
         env:
